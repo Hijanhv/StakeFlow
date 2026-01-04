@@ -337,11 +337,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ---
 
-## 📸 Screenshots
 
-### dApp Dashboard
-![StakeFlow Dashboard](stakeflow-logo.png)
-*Modern UI with stats dashboard, deposit/withdraw interface, and wallet integration*
 
 ### Features
 - 💰 Real-time TVL and APY tracking
