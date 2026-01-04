@@ -1,8 +1,8 @@
 # StakeFlow
 
-## Liquid Staking & DeFi Yield Optimization Platform
+![StakeFlow - Liquid Staking & DeFi Yield Optimization](../stakeflow-logo.png)
 
-![StakeFlow Logo](https://via.placeholder.com/800x200/000000/FFFFFF?text=StakeFlow)
+## Liquid Staking & DeFi Yield Optimization Platform
 
 ## Pitch
 

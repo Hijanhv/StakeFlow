@@ -1,6 +1,6 @@
 # StakeFlow
 
-![StakeFlow - Liquid Staking & DeFi Yield Optimization](https://raw.githubusercontent.com/Hijanhv/StakeFlow/main/logo.png)
+![StakeFlow - Liquid Staking & DeFi Yield Optimization](./stakeflow-logo.png)
 
 ## 🚀 Liquid Staking & DeFi Yield Optimization Platform
 
