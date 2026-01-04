@@ -1,0 +1,5 @@
+[[contracts]]
+fqn = "flipper::Flipper"
+
+[[contracts]]
+fqn = "stakeflow_vault::StakeFlowVault"

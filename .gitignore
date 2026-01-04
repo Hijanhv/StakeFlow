@@ -1,0 +1,31 @@
+# Private keys - NEVER commit these!
+keys/
+*.pem
+*secret*
+
+# Rust
+target/
+**/*.rs.bk
+*.pdb
+
+# Cargo
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build artifacts
+wasm/
+*.wasm
+
+# Node (for future frontend)
+node_modules/
+dist/
+build/
+.env
+.env.local
