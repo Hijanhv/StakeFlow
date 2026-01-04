@@ -245,7 +245,7 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## 👤 Author
 
-Built by Janhv for Casper Network Hackathon 2026
+Built by Janhavi for Casper Network Hackathon 2026
 
 ---
 
