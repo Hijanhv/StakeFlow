@@ -2,9 +2,9 @@
 
 ![StakeFlow - Liquid Staking & DeFi Yield Optimization](./stakeflow-logo.png)
 
-## 🚀 Liquid Staking & DeFi Yield Optimization Platform
+## 🚀 Secure Vault Foundation for Future Liquid Staking
 
-**One-click yield optimization that stakes your CSPR, generates liquid tokens, and automatically compounds returns across DeFi protocols - all while keeping your assets liquid.**
+**A production-ready CSPR vault with share-based accounting, built as the foundation for a full liquid staking yield optimization protocol that will stake CSPR, generate liquid tokens, and automatically compound returns across DeFi.**
 
 Built for **Casper Network Hackathon 2026** | Tracks: **Liquid Staking + Main Track (DeFi)**
 
@@ -18,43 +18,53 @@ Traditional staking on proof-of-stake blockchains forces users to choose between
 
 This creates **capital inefficiency** and **missed yield opportunities**. Users can't participate in DeFi while staking, leaving significant returns on the table.
 
-## ✨ The Solution
+## ✨ The Solution (Vision)
 
-**StakeFlow** leverages Casper Network's native liquid staking to solve this problem by:
+**StakeFlow** is building the infrastructure to leverage Casper Network's native liquid staking:
 
-1. **💰 Accepting CSPR deposits** from users in a secure vault
-2. **🔄 Auto-staking through Casper's liquid staking** to receive sCSPR tokens
-3. **📈 Deploying sCSPR into DeFi yield strategies** (lending, liquidity pools)
-4. **♻️ Auto-compounding rewards** to maximize returns
-5. **⚡ Allowing instant withdrawals** - no lock-up periods
+### ✅ Phase 1 - Built & Live:
+1. **💰 Secure CSPR Vault** - Deposit and withdraw CSPR anytime with share-based accounting
+2. **📊 Fair Yield Distribution** - Proportional ownership tracking for future rewards
+3. **🔒 Emergency Controls** - Pause/unpause for security
+4. **✨ Modern dApp Interface** - Next.js frontend with wallet integration ready
 
-Users get the best of both worlds: **staking rewards + DeFi yields**, all fully liquid.
+### 🔄 Phase 2 - Planned:
+5. **🔄 Auto-staking through Casper's liquid staking** to receive sCSPR tokens
+6. **📈 Deploying sCSPR into DeFi yield strategies** (lending, liquidity pools)
+7. **♻️ Auto-compounding rewards** to maximize returns
+8. **⚡ Instant withdrawals** - no lock-up periods
+
+The foundation is solid. The vision is clear. The execution continues.
 
 ---
 
 ## 🎯 Features
 
-### Smart Contract ✅
+### Smart Contract (Live on Testnet) ✅
 - ✅ **Secure Vault Contract** - Deposit and withdraw CSPR anytime
-- ✅ **Share-based Accounting** - Fair distribution of yields among depositors
-- ✅ **Liquid Staking Integration** - Convert CSPR to sCSPR automatically
+- ✅ **Share-based Accounting** - Fair distribution system for future yield tracking
 - ✅ **Emergency Controls** - Owner can pause/unpause for security
 - ✅ **Event Emissions** - Full transparency via blockchain events
 - ✅ **Comprehensive Tests** - 100% test coverage (4/4 tests passing)
+- ✅ **Production-Ready Code** - 325KB optimized WASM
 
-### Frontend dApp ✅
+### Frontend dApp (Deployed on Vercel) ✅
 - ✅ **Modern UI/UX** - Built with Next.js 15 + TypeScript + Tailwind CSS
-- ✅ **Live Dashboard** - Real-time stats (TVL, APY, user balance)
-- ✅ **Deposit/Withdraw Interface** - Easy-to-use stake/unstake interface
-- ✅ **Wallet Connection** - Connect Casper Wallet integration (UI ready)
+- ✅ **Deposit/Withdraw Interface** - Clean, intuitive user experience
+- ✅ **Wallet Connection Ready** - Casper Wallet integration UI
 - ✅ **Responsive Design** - Works on desktop, tablet, and mobile
-- ✅ **Expected Returns Calculator** - Shows estimated yearly earnings
+- ✅ **Real-time Balance Display** - Shows user deposits and shares
 
-### Coming Soon 🔄
-- 🔄 **Yield Optimization Engine** - Auto-deploy to highest-yielding DeFi protocols
-- 🔄 **Auto-compounding** - Reinvest rewards automatically
-- 🔄 **Dashboard** - Real-time APY tracking and portfolio view
-- 🔄 **Multi-strategy Support** - Diversify across lending, LPs, and more
+### Phase 2: Liquid Staking Integration 🔄
+- 🔄 **CSPR → sCSPR Conversion** - Integrate Casper's native liquid staking API
+- 🔄 **Staking Rewards Tracking** - Real-time APY monitoring
+- 🔄 **Automated Delegation** - Smart validator selection
+
+### Phase 3: DeFi Yield Optimization 🚀
+- 🚀 **Multi-Protocol Integration** - Deploy to lending, LPs, and more
+- 🚀 **Auto-compounding Engine** - Reinvest rewards automatically
+- 🚀 **Risk-Adjusted Strategies** - Optimize for yield vs. security
+- 🚀 **Governance Token** - Community-driven protocol decisions
 
 ---
 
@@ -148,6 +158,13 @@ test result: ok. 4 passed; 0 failed
 - **Status:** Compiled and ready
 - **Contract Hash:** `77d0e4b5746ef3757ac3c48834d9dd067367245e56d060644280be1ddaafa01c` (deploy attempted)
 - **Network:** Casper Testnet
+- **RPC:** Casper Network official testnet nodes
+
+### Frontend (Vercel)
+- **Platform:** Vercel (Next.js optimized hosting)
+- **Status:** Live and accessible
+- **Framework:** Next.js 15 with App Router
+- **CI/CD:** Automatic deployments via GitHub integration
 - **Explorer:** https://testnet.cspr.live
 - **Contract Size:** 325KB WASM
 
