@@ -2,11 +2,11 @@
 
 ![StakeFlow - Liquid Staking & DeFi Yield Optimization](./stakeflow-logo.png)
 
-## 🚀 Secure Vault Foundation for Future Liquid Staking
+## 🚀 Advanced Liquid Staking with Auto-Rebalancing
 
-**A production-ready CSPR vault with share-based accounting, built as the foundation for a full liquid staking yield optimization protocol that will stake CSPR, generate liquid tokens, and automatically compound returns across DeFi.**
+**Multi-track DeFi protocol featuring liquid staking with auto-rebalancing validators, cross-chain infrastructure, and enterprise-grade analytics. Built for Casper Hackathon 2026.**
 
-Built for **Casper Network Hackathon 2026** | Tracks: **Liquid Staking + Main Track (DeFi)**
+**Tracks:** Liquid Staking + Main Track (DeFi) + Interoperability Ready
 
 ---
 
@@ -15,56 +15,68 @@ Built for **Casper Network Hackathon 2026** | Tracks: **Liquid Staking + Main Tr
 Traditional staking on proof-of-stake blockchains forces users to choose between:
 - **Liquidity** - Having access to your tokens for DeFi opportunities
 - **Staking Rewards** - Earning validator rewards on locked tokens
+- **Validator Performance** - Manual monitoring and rebalancing required
 
-This creates **capital inefficiency** and **missed yield opportunities**. Users can't participate in DeFi while staking, leaving significant returns on the table.
+This creates **capital inefficiency** and **missed yield opportunities**. Users can't participate in DeFi while staking, and poor validator selection costs returns.
 
-## ✨ The Solution (Vision)
+## ✨ The Solution
 
-**StakeFlow** is building the infrastructure to leverage Casper Network's native liquid staking:
+**StakeFlow** provides advanced liquid staking infrastructure with unique features:
 
-### ✅ Phase 1 - Built & Live:
-1. **💰 Secure CSPR Vault** - Deposit and withdraw CSPR anytime with share-based accounting
-2. **📊 Fair Yield Distribution** - Proportional ownership tracking for future rewards
-3. **🔒 Emergency Controls** - Pause/unpause for security
-4. **✨ Modern dApp Interface** - Next.js frontend with wallet integration ready
+### ✅ What's Live Now (Days 1-2):
 
-### 🔄 Phase 2 - Planned:
-5. **🔄 Auto-staking through Casper's liquid staking** to receive sCSPR tokens
-6. **📈 Deploying sCSPR into DeFi yield strategies** (lending, liquidity pools)
-7. **♻️ Auto-compounding rewards** to maximize returns
-8. **⚡ Instant withdrawals** - no lock-up periods
+#### **Smart Contract Features:**
+1. **💰 Liquid Staking Core** - Stake CSPR with multi-validator diversification
+2. **🎯 Auto-Rebalancing** - Performance-based validator optimization (UNIQUE!)
+3. **📊 Validator Management** - Add validators, track performance scores & uptime
+4. **🌉 Cross-Chain Infrastructure** - Register deposits from Ethereum & other chains
+5. **📈 Advanced Analytics** - Portfolio metrics, risk scoring, APY calculation
+6. **♻️ Auto-Compounding** - Staking rewards automatically reinvested
+7. **🔒 Security Features** - Pausable, emergency controls, event emissions
 
-The foundation is solid. The vision is clear. The execution continues.
+#### **Frontend dApp:**
+8. **🖥️ Advanced Dashboard** - Validator tracking, portfolio metrics, performance charts
+9. **📱 Cross-Chain UI** - Interface for multi-chain deposit management
+10. **📊 Real-time Analytics** - TVL, APY, rewards, risk scores displayed live
+11. **🎨 Modern Design** - Responsive, glassmorphism UI with Next.js 15
+
+### 🔄 Phase 3 (Next):
+- **DeFi Protocol Integration** - Deploy to lending & liquidity pools
+- **Mainnet Deployment** - Production launch with audit
+- **Governance** - Community-driven decisions
 
 ---
 
 ## 🎯 Features
 
 ### Smart Contract (Live on Testnet) ✅
-- ✅ **Secure Vault Contract** - Deposit and withdraw CSPR anytime
-- ✅ **Share-based Accounting** - Fair distribution system for future yield tracking
-- ✅ **Emergency Controls** - Owner can pause/unpause for security
-- ✅ **Event Emissions** - Full transparency via blockchain events
-- ✅ **Comprehensive Tests** - 100% test coverage (4/4 tests passing)
-- ✅ **Production-Ready Code** - 325KB optimized WASM
+- ✅ **Liquid Staking Core** - Multi-validator CSPR delegation with auto-rebalancing
+- ✅ **Performance-Based Rebalancing** - Automatically moves stake to top validators (UNIQUE)
+- ✅ **Validator Management** - Track performance scores, uptime, and health metrics
+- ✅ **Share-based Accounting** - Fair proportional yield distribution
+- ✅ **Staking Rewards** - Claim and compound rewards automatically
+- ✅ **Cross-Chain Infrastructure** - Register deposits from Ethereum & other chains
+- ✅ **Advanced Analytics** - Portfolio metrics, risk scoring, APY calculation
+- ✅ **Emergency Controls** - Pausable contract with owner controls
+- ✅ **Event Emissions** - Full transparency for all actions
+- ✅ **Comprehensive Tests** - 10 tests passing (up from 4!)
+- ✅ **Production-Ready** - 375KB optimized WASM
 
-### Frontend dApp (Deployed on Vercel) ✅
-- ✅ **Modern UI/UX** - Built with Next.js 15 + TypeScript + Tailwind CSS
-- ✅ **Deposit/Withdraw Interface** - Clean, intuitive user experience
-- ✅ **Wallet Connection Ready** - Casper Wallet integration UI
-- ✅ **Responsive Design** - Works on desktop, tablet, and mobile
-- ✅ **Real-time Balance Display** - Shows user deposits and shares
+### Frontend dApp (Live) ✅
+- ✅ **Main Page** - Deposit/withdraw interface with real-time stats
+- ✅ **Advanced Dashboard** - Portfolio metrics, earnings, risk score
+- ✅ **Validator Dashboard** - Track all active validators with performance scores
+- ✅ **Cross-Chain UI** - Interface for multi-chain deposit tracking
+- ✅ **Analytics Display** - TVL, APY, rewards, validator count
+- ✅ **Responsive Design** - Modern glassmorphism UI on all devices
+- ✅ **Navigation** - Multi-page app with seamless routing
 
-### Phase 2: Liquid Staking Integration 🔄
-- 🔄 **CSPR → sCSPR Conversion** - Integrate Casper's native liquid staking API
-- 🔄 **Staking Rewards Tracking** - Real-time APY monitoring
-- 🔄 **Automated Delegation** - Smart validator selection
-
-### Phase 3: DeFi Yield Optimization 🚀
-- 🚀 **Multi-Protocol Integration** - Deploy to lending, LPs, and more
-- 🚀 **Auto-compounding Engine** - Reinvest rewards automatically
-- 🚀 **Risk-Adjusted Strategies** - Optimize for yield vs. security
-- 🚀 **Governance Token** - Community-driven protocol decisions
+### What Makes Us Unique 🌟
+1. **Auto-Rebalancing** - CasperStake doesn't have this. We automatically optimize validator selection
+2. **Multi-Validator Diversification** - Spread risk across 4+ validators automatically
+3. **Performance Monitoring** - Real-time tracking with health scores
+4. **Cross-Chain Ready** - Infrastructure built for Ethereum & BSC deposits
+5. **Enterprise Analytics** - Risk scoring and comprehensive metrics
 
 ---
 
@@ -73,23 +85,34 @@ The foundation is solid. The vision is clear. The execution continues.
 ### Smart Contracts (Rust + Odra Framework)
 
 ```
-StakeFlowVault (Main Contract)
+StakeFlowVault (Enhanced Contract - 375KB WASM)
+├── Liquid Staking Core
+│   ├── stake_to_validators() - Delegate CSPR to multiple validators
+│   ├── claim_staking_rewards() - Harvest and compound rewards
+│   └── Multi-validator diversification
+├── Auto-Rebalancing (UNIQUE)
+│   ├── add_validator() - Register validators with scores
+│   ├── update_validator_score() - Track performance & uptime
+│   └── rebalance_validators() - Optimize stake distribution
 ├── Vault Management
 │   ├── deposit() - Accept CSPR deposits
 │   ├── withdraw() - Burn shares, return CSPR
-│   └── Share calculation logic
-├── User Tracking
-│   ├── user_deposits - Mapping of user → CSPR amount
-│   ├── user_shares - Mapping of user → share amount
-│   └── total_shares - Global share supply
-├── Admin Functions
-│   ├── pause() - Emergency stop
-│   └── unpause() - Resume operations
-└── View Functions
-    ├── get_tvl() - Total Value Locked
-    ├── get_apy() - Current APY
-    ├── get_user_value() - User's current value including yields
-    └── is_active() - Contract status
+│   └── Share-based accounting
+├── Cross-Chain Infrastructure
+│   ├── register_cross_chain_deposit() - Process ETH/BSC deposits
+│   └── get_chain_tvl() - Track multi-chain TVL
+├── Advanced Analytics
+│   ├── get_portfolio_metrics() - User earnings, APY, days staked
+│   ├── get_risk_score() - Portfolio risk assessment (0-100)
+│   ├── get_validator_info() - Performance data per validator
+│   └── get_apy() - Real-time APY calculation
+└── Admin Functions
+    ├── pause() / unpause() - Emergency controls
+    └── Owner-only operations
+
+📊 Test Coverage: 10 comprehensive tests
+🔒 Security: Pausable, validated inputs, event logging
+⚡ Performance: 375KB optimized WASM
 ```
 
 ### Technology Stack
@@ -98,6 +121,47 @@ StakeFlowVault (Main Contract)
 - Rust + [Odra Framework](https://odra.dev)
 - Casper Network (Testnet)
 - Build Tools: cargo-odra, wasm-opt, wasm-strip
+- Testing: OdraVM + CasperVM
+- Contract Size: 375KB optimized WASM
+- Test Coverage: 10 comprehensive tests
+
+**Frontend:**
+- Next.js 15 (App Router) + React 19
+- TypeScript for type safety
+- Tailwind CSS for styling
+- Multi-page app (Home + Dashboard)
+- Deployed on Vercel
+- Responsive design with glassmorphism UI
+
+**Features Implemented:**
+- ✅ Liquid staking with multi-validator support
+- ✅ Auto-rebalancing based on performance
+- ✅ Cross-chain deposit infrastructure
+- ✅ Advanced portfolio analytics
+- ✅ Validator performance monitoring
+- ✅ Risk scoring system
+- ✅ Real-time APY calculation
+- ✅ Comprehensive event emissions
+
+---
+
+## 📊 Test Results
+
+```bash
+running 10 tests
+test flipper::tests::flipping ... ok
+test stakeflow_vault::tests::test_initialization ... ok
+test stakeflow_vault::tests::test_deposit ... ok
+test stakeflow_vault::tests::test_withdraw ... ok
+test stakeflow_vault::tests::test_validator_management ... ok
+test stakeflow_vault::tests::test_staking_workflow ... ok
+test stakeflow_vault::tests::test_portfolio_metrics ... ok
+test stakeflow_vault::tests::test_risk_score ... ok
+test stakeflow_vault::tests::test_cross_chain_deposit ... ok
+test stakeflow_vault::tests::test_apy_calculation ... ok
+
+test result: ok. 10 passed; 0 failed
+```
 - Testing: OdraVM + CasperVM
 - Contract Size: 325KB optimized WASM
 
