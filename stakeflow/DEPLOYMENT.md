@@ -1,10 +1,31 @@
-# StakeFlow Deployment Guide
+# StakeFlow Enhanced Contract Deployment Guide
+
+## 🎉 Latest Deployment (Day 3 - January 5, 2026)
+
+### Deployed Contract Information
+- **Deploy Hash:** `9f49ce41cad9bd18fdcdaca958ef003c672d6d2b513c9fa87f98ca7f7c9d1c0a`
+- **Explorer Link:** https://testnet.cspr.live/deploy/9f49ce41cad9bd18fdcdaca958ef003c672d6d2b513c9fa87f98ca7f7c9d1c0a
+- **Network:** Casper Testnet
+- **Block Height:** 6449197
+- **Contract Size:** 375KB (Enhanced with auto-rebalancing & cross-chain features)
+- **Gas Used:** 1,152,435
+- **Payment Amount:** 250 CSPR
+
+### Features Deployed
+✅ Liquid staking with multi-validator support
+✅ Auto-rebalancing based on performance
+✅ Validator management & scoring
+✅ Cross-chain deposit infrastructure  
+✅ Advanced portfolio analytics
+✅ Risk scoring system
+✅ Staking rewards & auto-compounding
+✅ 10 comprehensive tests passing
 
 ## Prerequisites
 
 - ✅ Rust and Casper CLI tools installed
 - ✅ 1000+ CSPR testnet tokens in your account
-- ✅ StakeFlowVault.wasm compiled (325KB)
+- ✅ StakeFlowVault.wasm compiled (375KB)
 
 ## Account Information
 
@@ -13,31 +34,18 @@
 - Balance: ~1000 CSPR (testnet)
 - Private Key: `../keys/secret_key.pem`
 
-## Deployment Command
-
-### Option 1: Using put-transaction (Recommended)
-
-```bash
-casper-client put-transaction session \
-  --node-address https://node.testnet.casper.network/rpc \
-  --chain-name casper-test \
-  --secret-key ../keys/secret_key.pem \
-  --wasm-path wasm/StakeFlowVault.wasm \
-  --payment-amount 200000000000 \
-  --gas-price-tolerance 5 \
-  --standard-payment true
-```
-
-### Option 2: Using put-deploy (Legacy - Deprecated)
+## Deployment Command (Used)
 
 ```bash
 casper-client put-deploy \
   --node-address https://node.testnet.casper.network/rpc \
   --chain-name casper-test \
   --secret-key ../keys/secret_key.pem \
-  --payment-amount 200000000000 \
+  --payment-amount 250000000000 \
   --session-path wasm/StakeFlowVault.wasm
 ```
+
+**Note:** Increased payment amount to 250 CSPR due to larger contract size (375KB vs previous 325KB)
 
 ## Alternative Testnet RPC Endpoints
 
