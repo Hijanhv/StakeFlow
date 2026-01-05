@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 import Image from 'next/image';
 
 export default function Home() {
@@ -8,27 +9,39 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<'deposit' | 'withdraw'>('deposit');
   const [isConnected, setIsConnected] = useState(false);
 
-  // Mock data
+  // Mock data - in production, fetch from smart contract
   const totalStaked = '1,245,000';
   const userBalance = '150.5';
-  const apy = '12.5';
+  const apy = '9.5';
   const totalValueLocked = '2.5M';
+  const activeValidators = '4';
+  const totalRewards = '142,500';
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-black to-red-900">
       {/* Navigation */}
-      <nav className="border-b border-gray-800 bg-black/50 backdrop-blur-sm">
+      <nav className="border-b border-gray-800 bg-black/50 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-20">
-            <div className="flex items-center space-x-3">
-              <Image src="/logo.png" alt="StakeFlow" width={60} height={60} className="rounded-lg" />
-              <span className="text-2xl font-bold text-white">StakeFlow</span>
+            <div className="flex items-center space-x-8">
+              <div className="flex items-center space-x-3">
+                <Image src="/logo.png" alt="StakeFlow" width={60} height={60} className="rounded-lg" />
+                <span className="text-2xl font-bold text-white">StakeFlow</span>
+              </div>
+              <div className="hidden md:flex space-x-6">
+                <Link href="/" className="text-white font-semibold">
+                  Home
+                </Link>
+                <Link href="/dashboard" className="text-gray-300 hover:text-white transition">
+                  Dashboard
+                </Link>
+              </div>
             </div>
             <button
               onClick={() => setIsConnected(!isConnected)}
               className="px-6 py-2 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg transition-all transform hover:scale-105"
             >
-              {isConnected ? 'Disconnect Wallet' : 'Connect Wallet'}
+              {isConnected ? '🔗 Connected' : 'Connect Wallet'}
             </button>
           </div>
         </div>
@@ -37,11 +50,14 @@ export default function Home() {
       {/* Hero Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-12">
+          <div className="inline-block bg-red-600/20 border border-red-600/30 rounded-full px-4 py-2 mb-6">
+            <span className="text-red-400 text-sm font-semibold">🏆 Multi-Track Innovation: Liquid Staking + DeFi + Interoperability</span>
+          </div>
           <h1 className="text-5xl font-bold text-white mb-4">
-            Liquid Staking & DeFi Yield Optimization
+            Advanced Liquid Staking Protocol
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            One-click yield optimization that stakes your CSPR, generates liquid tokens, and automatically compounds returns across DeFi protocols
+            Auto-rebalancing validators, cross-chain deposits, and performance-based optimization. Built for Casper Hackathon 2026.
           </p>
         </div>
 
@@ -50,18 +66,22 @@ export default function Home() {
           <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
             <div className="text-gray-400 text-sm mb-2">Total Value Locked</div>
             <div className="text-3xl font-bold text-white">${totalValueLocked} CSPR</div>
+            <div className="text-xs text-gray-500 mt-1">All protocols</div>
           </div>
           <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
             <div className="text-gray-400 text-sm mb-2">Current APY</div>
             <div className="text-3xl font-bold text-green-400">{apy}%</div>
+            <div className="text-xs text-gray-500 mt-1">Performance-optimized</div>
           </div>
           <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
-            <div className="text-gray-400 text-sm mb-2">Total Staked</div>
-            <div className="text-3xl font-bold text-white">{totalStaked} CSPR</div>
+            <div className="text-gray-400 text-sm mb-2">Active Validators</div>
+            <div className="text-3xl font-bold text-white">{activeValidators}</div>
+            <div className="text-xs text-gray-500 mt-1">Auto-rebalanced</div>
           </div>
           <div className="bg-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
-            <div className="text-gray-400 text-sm mb-2">Your Balance</div>
-            <div className="text-3xl font-bold text-blue-400">{userBalance} CSPR</div>
+            <div className="text-gray-400 text-sm mb-2">Total Rewards</div>
+            <div className="text-3xl font-bold text-blue-400">{totalRewards} CSPR</div>
+            <div className="text-xs text-gray-500 mt-1">Auto-compounded</div>
           </div>
         </div>
 
@@ -164,25 +184,60 @@ export default function Home() {
         {/* Features Section */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
           <div className="bg-gray-800/30 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
-            <div className="text-4xl mb-4">🚀</div>
-            <h3 className="text-xl font-bold text-white mb-2">Instant Liquidity</h3>
+            <div className="text-4xl mb-4">🎯</div>
+            <h3 className="text-xl font-bold text-white mb-2">Auto-Rebalancing</h3>
             <p className="text-gray-400">
-              Receive sCSPR tokens immediately and use them across DeFi while earning staking rewards
+              Performance-based validator selection automatically moves your stake to top performers
             </p>
           </div>
           <div className="bg-gray-800/30 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
-            <div className="text-4xl mb-4">💰</div>
-            <h3 className="text-xl font-bold text-white mb-2">Auto-Compounding</h3>
+            <div className="text-4xl mb-4">🌉</div>
+            <h3 className="text-xl font-bold text-white mb-2">Cross-Chain Ready</h3>
             <p className="text-gray-400">
-              Rewards are automatically reinvested to maximize your returns without any action needed
+              Infrastructure built to accept deposits from Ethereum, BSC, and other chains
             </p>
           </div>
           <div className="bg-gray-800/30 backdrop-blur-sm border border-gray-700 rounded-xl p-6">
-            <div className="text-4xl mb-4">🔒</div>
-            <h3 className="text-xl font-bold text-white mb-2">Secure & Tested</h3>
+            <div className="text-4xl mb-4">📊</div>
+            <h3 className="text-xl font-bold text-white mb-2">Advanced Analytics</h3>
             <p className="text-gray-400">
-              Built with Rust on Casper Network with comprehensive security testing and audits
+              Portfolio metrics, risk scoring, and validator performance tracking in real-time
             </p>
+          </div>
+        </div>
+
+        {/* Technology Stack */}
+        <div className="mt-16 bg-gray-800/30 backdrop-blur-sm border border-gray-700 rounded-xl p-8">
+          <h2 className="text-2xl font-bold text-white mb-6 text-center">What Makes StakeFlow Unique</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="flex items-start space-x-4">
+              <div className="text-2xl">✅</div>
+              <div>
+                <h4 className="font-semibold text-white mb-1">Multi-Validator Diversification</h4>
+                <p className="text-gray-400 text-sm">Your stake automatically spreads across 4+ validators for optimal security and returns</p>
+              </div>
+            </div>
+            <div className="flex items-start space-x-4">
+              <div className="text-2xl">✅</div>
+              <div>
+                <h4 className="font-semibold text-white mb-1">Performance Monitoring</h4>
+                <p className="text-gray-400 text-sm">Real-time tracking of validator uptime, score, and performance with auto-rebalancing</p>
+              </div>
+            </div>
+            <div className="flex items-start space-x-4">
+              <div className="text-2xl">✅</div>
+              <div>
+                <h4 className="font-semibold text-white mb-1">Cross-Chain Infrastructure</h4>
+                <p className="text-gray-400 text-sm">Built to accept deposits from Ethereum and other chains via bridge relayers</p>
+              </div>
+            </div>
+            <div className="flex items-start space-x-4">
+              <div className="text-2xl">✅</div>
+              <div>
+                <h4 className="font-semibold text-white mb-1">Enterprise-Grade Analytics</h4>
+                <p className="text-gray-400 text-sm">Portfolio metrics, risk scoring, and comprehensive dashboard for informed decisions</p>
+              </div>
+            </div>
           </div>
         </div>
 
