@@ -3,3 +3,18 @@ fqn = "flipper::Flipper"
 
 [[contracts]]
 fqn = "stakeflow_vault::StakeFlowVault"
+
+[[contracts]]
+fqn = "stakeflow_minimal::StakeFlowMinimal"
+
+[[contracts]]
+fqn = "stcspr_token::StCSPRToken"
+
+# [[contracts]]
+# fqn = "stakeflow_vault_v2::StakeFlowVaultV2"  # DISABLED - using V3 instead
+
+[[contracts]]
+fqn = "stakeflow_vault_v3::StakeFlowVaultV3"
+
+[[contracts]]
+fqn = "governance::StakeFlowGovernance"

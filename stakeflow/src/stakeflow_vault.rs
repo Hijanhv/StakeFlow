@@ -718,7 +718,7 @@ mod tests {
     #[test]
     fn test_risk_score() {
         let env = odra_test::env();
-        let contract = StakeFlowVault::deploy(&env, NoArgs);
+        let mut contract = StakeFlowVault::deploy(&env, NoArgs);
 
         // Add multiple validators for better risk score
         for i in 2..7 {
