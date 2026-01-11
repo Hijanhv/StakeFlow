@@ -1,0 +1,3 @@
+MINIMAL_DEPLOY_HASH=6e746204d0ea24808664ef44aead9058abbeb8e46cb2391cf62b8c0d6aebc0db
+MINIMAL_CONTRACT=StakeFlowMinimal
+EXPLORER_URL=https://testnet.cspr.live/deploy/6e746204d0ea24808664ef44aead9058abbeb8e46cb2391cf62b8c0d6aebc0db

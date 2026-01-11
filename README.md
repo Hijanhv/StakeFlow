@@ -8,6 +8,18 @@
 
 **Tracks:** Liquid Staking + Main Track (DeFi) + Interoperability Ready
 
+## ✅ LIVE ON CASPER TESTNET
+
+**🎉 All 4 Smart Contracts Successfully Deployed - January 12, 2026**
+
+- **StakeFlowMinimal:** `6e746204d0ea24808664ef44aead9058abbeb8e46cb2391cf62b8c0d6aebc0db`
+- **StCSPR Token:** `5a634c8449a81af015ea6e9155ea1f94b1ffa890adbac643bd049c7f89aca956`
+- **StakeFlowVaultV3:** `f0d775a0e2ce6e8df1a5d6aa6ebe50853261cb47b765051bfb00675cae5fa09f`
+- **StakeFlowGovernance:** `6146d42103f8669ab2b361788599e59a734549043d1f7907e2d061b4991062d3`
+
+🔗 **Live dApp:** https://stake-flow-livid.vercel.app/  
+🔍 **Explorer:** https://testnet.cspr.live/account/01f483bce2fdecda2c43a5924179d82f9490f0147ab20d3b2c0ddc8662328c3333
+
 ---
 
 ## 💡 The Problem

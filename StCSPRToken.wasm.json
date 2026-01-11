@@ -1,11 +1,11 @@
 {
-  "hash": "7c4535fc695883b45ef6487e52fa9592f575ba339c6a779645137fb293a82d24",
+  "hash": "5a634c8449a81af015ea6e9155ea1f94b1ffa890adbac643bd049c7f89aca956",
   "header": {
     "account": "01f483bce2fdecda2c43a5924179d82f9490f0147ab20d3b2c0ddc8662328c3333",
-    "timestamp": "2026-01-11T20:49:42.314Z",
+    "timestamp": "2026-01-11T22:01:20.200Z",
     "ttl": "30m",
     "gas_price": 1,
-    "body_hash": "2a546f1659f11efa6063d394bafaadaa4e5756dbaf50f9f8264023291761fd71",
+    "body_hash": "6236c49b3e4d01592f85c5f7edd3242e131b8f5a976f123ef2456121bd097caf",
     "dependencies": [],
     "chain_name": "casper-test"
   },
@@ -17,8 +17,8 @@
           "amount",
           {
             "cl_type": "U512",
-            "bytes": "0500a0db215d",
-            "parsed": "400000000000"
+            "bytes": "05002ca07d51",
+            "parsed": "350000000000"
           }
         ]
       ]
@@ -33,7 +33,7 @@
   "approvals": [
     {
       "signer": "01f483bce2fdecda2c43a5924179d82f9490f0147ab20d3b2c0ddc8662328c3333",
-      "signature": "01c721a7149d6857d85c18607e067d44ce2c5f7519f35a302d11e85944e7f0bf42a8116a031b9bd5c4d92cde2fc24e3d2c5b1e86e1f3b36126804cf445d076c30d"
+      "signature": "017b8e4ccf7f9eb9f42bd11dbfa3f24ebde2015861b0dced098e6f3ac8512fca5b4df34347cc287b76bf53473e3af1f7f7182d9b2ca473ac28247cba6814fe6f02"
     }
   ]
 }

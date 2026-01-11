@@ -1,0 +1,17 @@
+# StakeFlow Testnet Deployments
+
+## StakeFlowMinimal (Already Deployed)
+HASH=6e746204d0ea24808664ef44aead9058abbeb8e46cb2391cf62b8c0d6aebc0db
+
+## StCSPR Token
+HASH=5a634c8449a81af015ea6e9155ea1f94b1ffa890adbac643bd049c7f89aca956
+COST=350
+
+## StakeFlowVaultV3
+HASH=f0d775a0e2ce6e8df1a5d6aa6ebe50853261cb47b765051bfb00675cae5fa09f
+COST=400
+
+## StakeFlowGovernance
+HASH=6146d42103f8669ab2b361788599e59a734549043d1f7907e2d061b4991062d3
+COST=350
+
